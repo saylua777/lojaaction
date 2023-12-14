@@ -17,7 +17,7 @@
 <body id="body_login">
 
     <main class="container_login">
-        <form id="login_form">
+        <form id="login_form" action="login.php" method="post">
             <div id="form-header">
                 <h2>Venha fazer parte dessa família!</h2>
             </div>
@@ -52,7 +52,7 @@
             <button type="submit" class="login_button">Enviar</button>
 
             <div class="divider">
-                <a class="item" href="register/form_register.php">Novo, por aqui? Registre-se.</a>
+                <a class="item" href="../register/form_register.php">Novo, por aqui? Registre-se.</a>
             </div>
 
         </form>

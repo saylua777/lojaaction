@@ -30,7 +30,9 @@ if (!$_SESSION['user']) {
                     <div class="dropdown">
                         <button class="dropbtn"><i class="fa-solid fa-user"></i></button>
                         <div class="dropdown-content">
-                            <a href="login/form_login.php">Fazer login</a>
+                            <a href="login/form_update.php">Editar dados</a>
+                            <a href="login/delete.php">Apagar conta</a>
+                            <a href="login/exit.php">Sair</a>
                         </div>
                     </div>
                 </nav>
