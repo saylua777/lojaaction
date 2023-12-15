@@ -5,19 +5,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css"></st
+    <link rel="stylesheet" href="style.css">
    
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     <!-- Ion Icon -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Loja action figure</title>
+
+    <!-- JavaScript link -->
+    <script src="/JavaScript/store-js.js" async></script>
 </head>
 
 <body>
@@ -34,8 +41,8 @@
                     <a href="">Home</a>
                     <a href="">Sobre Nós</a>
                     <a href="">Catálogo</a>
-                    <a href="">Ajuda</a>
-                    <a href="">Carrinho</a>
+                    <a href=""><ion-icon name="bag">
+                    </ion-icon> Carrinho <span id="total-cart-items">0</span></a>
                     <div class="dropdown">
                         <button class="dropbtn"><i class="fa-solid fa-user"></i></button>
                         <div class="dropdown-content">
@@ -76,8 +83,10 @@
                     <!-- A responsive image is an image that can automatically adjust to fit the size of the screen -->
                     <div class="card-body">
                         <h4 class="card-title product-heading">Principe Vegeta</h4>
+                        <p class="price">R$249.00</p>
                         <br>
-                        <a href="/Items/item1.html" class="btn btn-success">Ver mais</a>
+                        <a href="description_vegeta.php" class="btn btn-success">Ver mais</a>
+                        <a type="button" class="btn btn-success add-to-cart" href="#" data-name="High Neck Knit Tank" data-price="249.00" data-id="top-1">Adicionar ao Carrinho</a>
                         <!-- Implemented buttons customised -->
                     </div>
                 </div>
@@ -86,17 +95,21 @@
                     <img class="card-img-top img-thumbnail img-fluid" src="img/imagem 1 (19).jpeg" alt="Item 9">
                     <div class="card-body">
                         <h4 class="card-title product-heading">Freeza</h4>
+                        <p class="price">R$199.00</p>
                         <br>
                         <a href="/Items/item9.html" class="btn btn-success">Ver mais</a>
+                        <a type="button" class="btn btn-success add-to-cart" href="#" data-name="High Neck Knit Tank" data-price="249.00" data-id="top-1">Adicionar ao Carrinho</a>
                     </div>
                 </div>
                 <!-- This is the 3rd item -->
                 <div class="card">
                     <img class="card-img-top img-thumbnail img-fluid" src="img/imagem 1 (20).jpeg" alt="Item 4">
                     <div class="card-body">
-                        <h4 class="card-title product-heading">Super Soft Boyfriend Jeans</h4>
+                        <h4 class="card-title product-heading">Son Gohan</h4>
+                        <p class="price">R$399.00</p>
                         <br>
-                        <a href="/Items/item4.html" class="btn btn-success">Ver mais</a>
+                        <a href="description.php" class="btn btn-success">Ver mais</a>
+                        <a type="button" class="btn btn-success add-to-cart" href="#" data-name="High Neck Knit Tank" data-price="249.00" data-id="top-1">Adicionar ao Carrinho</a>
                     </div>
                 </div>
                 <!-- This is the 4th item -->
@@ -104,8 +117,10 @@
                     <img class="card-img-top img-thumbnail img-fluid" src="img/imagem 1 (17).jpeg" alt="Item 11">
                     <div class="card-body">
                         <h4 class="card-title product-heading">Gacha Naruto</h4>
+                        <p class="price">R$169.00</p>
                         <br>
                         <a href="/Items/item11.html" class="btn btn-success">Ver mais</a>
+                        <a type="button" class="btn btn-success add-to-cart" href="#" data-name="High Neck Knit Tank" data-price="249.00" data-id="top-1">Adicionar ao Carrinho</a>
                     </div>
                 </div>
             </div>
