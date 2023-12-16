@@ -33,17 +33,19 @@ if (!$_SESSION['user']) {
                             <a href="login/form_update.php">Editar dados</a>
                             <a href="login/delete.php">Apagar conta</a>
                             <a href="login/exit.php">Sair</a>
+                            <a href="cad_produto/listar.php">listar</a>
                         </div>
                     </div>
+                    <a href="cad_produto/form_produto.php"><i class="fa-solid fa-plus"></i></a>
                 </nav>
             </div>
         </div>
     </header>
+    
 
+    <!-- <img src="img/Desktop - 2.png" width="100%" height="100%"> -->
 
-    <img src="img/Desktop - 2.png" width="100%" height="100%">
-
-
+   
 </body>
 
 </html>
