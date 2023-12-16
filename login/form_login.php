@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
         rel="stylesheet" />
-    <title>Tela inicial</title>
+    <title>Tela Login</title>
 </head>
 
 <body id="body_login">
@@ -35,14 +35,14 @@
                         </div>
                     </label>
                     <div class="input-box">
-                        <label for="password">Password
+                        <label for="password">Senha
                             <div class="input-field">
                                 <i class="fa-solid fa-lock"></i>
                                 <input type="password" name="password" id="password">
                             </div>
                         </label>
                         <div id="forgot-password">
-                            <a href="#"> Forgot your password? </a>
+                            <a href="#"> Esqueceu sua senha? </a>
                         </div>
 
                     </div>
